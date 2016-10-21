@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExerciseSessionwithLathaI.Section_D.D3b</StartupObject>
+    <StartupObject>ExerciseSessionwithLathaI.Section_F.F1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,14 @@
     <Compile Include="Section D\D2.cs" />
     <Compile Include="Section D\D3a.cs" />
     <Compile Include="Section D\D3b.cs" />
+    <Compile Include="Section D\D4.cs" />
+    <Compile Include="Section E\E1.cs" />
+    <Compile Include="Section E\E2.cs" />
+    <Compile Include="Section E\E3.cs" />
+    <Compile Include="Section E\E4.cs" />
+    <Compile Include="Section E\E5.cs" />
+    <Compile Include="Section E\E6.cs" />
+    <Compile Include="Section F\F1.cs" />
     <Compile Include="SectionB\B9.cs" />
     <Compile Include="SectionC\C2.cs" />
     <Compile Include="SectionC\C3.cs" />
@@ -68,9 +76,13 @@
     <Compile Include="SectionB\B7.cs" />
     <Compile Include="SectionB\B8.cs" />
     <Compile Include="SectionGExercis1.cs" />
+    <Compile Include="testing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

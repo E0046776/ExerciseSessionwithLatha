@@ -27,7 +27,7 @@ namespace ExerciseSessionwithLathaI.SectionC
                     {  I_MP3 = Convert.ToInt32(Console.ReadLine()); }//if mp3 is entered
                 }
                 int totalprice = (I_TV * 900) + (I_DVD * 500) + (I_MP3 * 700);
-                if(totalprice>5000)
+                if(totalprice>5000 && totalprice<10000)
 
                 {
                     int discount = ( (I_TV * 900) + (I_DVD * 500) ) * 10 / 100;
